@@ -39,7 +39,7 @@ body {
 }
 
 .header .logo img {
-    width: 120px;
+    width: 180px;
     /* Aumente o tamanho do logo */
 }
 
@@ -70,16 +70,28 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-image: url('asset/Vo.png');
+    /* Caminho para sua imagem */
+    background-size: cover;
+    /* Ajusta a imagem para cobrir toda a área da seção */
+    background-position: center;
+    /* Centraliza a imagem */
+    background-attachment: fixed;
+    /* A imagem de fundo ficará fixa ao rolar */
 }
 
 .hero-content h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
+    color: #ffd901;
+    /* Ajusta a cor do título para ficar visível */
 }
 
 .hero-content p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
+    color: #060606;
+    /* Ajusta a cor do texto */
 }
 
 .btn {
